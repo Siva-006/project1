@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-compatible" content="ie=edge">
+<title>header </title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link href="" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font- awesome/5.11.2/css/all.css">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<style media="screen">
+  body{
+background-image: linear-gradient(#3498DB,#154360); margin: 0px;
+padding: 0px;}
+a{
+color: black;
+text-decoration: none; font-family:'Montserrat', sans-serif;}
+header{
+background-color: aliceblue; border-bottom: 5px solid #db8301; height: 60px;
+padding: 17px;}
+#left-nav{ float: left;
+height: 100%;}
+ul li{
+list-style-type: none;}
+#right-nav{ float: right;}
+#right-nav li{
+display: inline-block; margin: 10px;}
+section{
+font-family: 'Raleway', sans-serif; font-size: 90%;}
+img{
+float: left;
+border-width: thick;}
+h1{
+font-family: 'Bebas Neue', cursive; font-size: 50px;}
+hr{
+width: 90%; height: 2px;}
+h2{
+text-align:justify-all; font-size-adjust: auto; font-size: 25px;}
+hr{
+width: 90%; height: 2px;}
+.box{
+margin: 0;
+padding: 0; display: flex;
+justify-content: center; align-items: center; min-height: 100v;
+min-width:110vh; font-family: fantasy;}
+.container{ display: flex; flex-wrap: wrap;
+justify-content:center; position: relative; left: 50%;
+right: 50%;
+bottom: 200%;
+transform: translate(-50%,-0%); text-align: center;}
+.container .box{ position: relative; width: 350px; padding: 150px; background: #fff;
+box-shadow: 0 5px 15px rgba(0,0,0,.1); border-radius: 4px;
+margin: 20px;
+box-sizing: border-box; overflow: hidden;
+text-align: center;}
+.container .box .icon{ position: float:left; width: 80px; height: 80px; color: #fff; background: #000; display: flex;
+justify-content: center; align-items: center; margin: 0 auto;
+border-radius:90%; font-size: 30px; font-weight: 600; transition: 1s;}
+.container .box:nth-child(1) .icon{ box-shadow: 0 0 0 80px #eb984e; background: #e67e22;}
+.container .box:nth-child(1):hover .icon{ box-shadow: 0 0 0 450px #e67e22;}
+.container .box .content{ position: absolute;
+z-index: 1; transition: 0.5s;}
+.container .box:hover .content{ color: #fff;}
+.container .box .content h3{ font-size: 40px;
+margin: 10px 0;
+padding: 0;}
+.container .box .content h4{ font-size: 20px; margin:5px;}
+.content .box:before{
+content: ''; width:50%; height: 100%; position: absolute; top: 0;
+left:0;
+background: rgba(255,255,255,.2); z-index:6;
+pointer-events: none;}
+.btn{
+border: none; margin: 50px; padding: 20px;
+font-family: "montserrat",sans-serif; text-transform: uppercase;
+border-radius: 5px; cursor: pointer; color: #fff;
+background-size: 200%; transition: 0.6s;}
+.btn1{
+background-image: linear-gradient(to left,#c4e538,#009432,#c4e538); align-content: flex-end;}
+.btn2{
+background-image: linear-gradient(to left,#fda7df,#9980fa,#fda7df);}
+.btn:hover{
+background-position: right;}
+footer{
+background: #f4f9ff; padding: 8px; margin-top: 0;}
+.foot{
+max-width: 1500px; margin:0; padding: 10px 10px;
+ display: flex;
+justify-content: space-between;
+align-items: center;}
+.social-media{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.social-media ul{
+  display: flex;
+}
+.social-media ul li{
+  position: relative;
+  display:flex;
+  font-size: 25px;
+  height: auto;
+  width: auto;
+  background:#f4f9ff;
+  line-height: 10px;
+  border-radius: 50;
+  margin: 0 15px;
+  cursor: pointer;
+
+}
+.social-media ul li:before{
+position: absolute;
+content: '';
+top:0;
+left:0;
+background: #db8301;
+height: 50%;
+width:50;
+border-radius: 50%;
+z-index: -1;
+transform: scale(0.9);
+transition: .5s;
+}
+.social-media a:hover{ color: #db8301;}
+left-col p{
+font-size: 15px; text-align:center;}
+.right-col h1{
+font-size: 25px;}
+
+.right-col p{
+font-family:sans-serif; font-size: 20px;}
+.border{
+width: 100px; height: 4px;
+background: #db8301;}
+.wrapper{
+min-height: 600px;}
+</style>
+<body>
+<header>
+<ul id="left-nav">
+<li></li>
+</ul>
+<ul id="right-nav">
+
+<li><a href="main.html">HOME</a></li>
+<li><a href="crs.html">COURSES</a></li>
+<li><a href="about.html">ABOUT</a></li>
+</ul>
+</header>
+<div class="wrapper">
+<section>
+<h1 align ="center">C++ PROGGRAMMING</h1><hr align ="center">
+<img srcset="http://localhost/pro/pics/c+++.jpeg" width="250" height="250" alt="" style="float: left; margin-right:10px; margin-bottom=5px; border:solid black 1px; padding:5px";/>
+<h2><p>&nbsp;&nbsp;C++ is a powerful computer programming language that's appropriate for technically oriented people with little or no programming experience, and for experienced programmers to use in building substantial information systems.
+  it is a cross-platform language that can be used to create high-performance applications.C++ is a powerful general-purpose programming language. It can be used to develop operating systems, browsers, games, and so on. C++ supports different ways of programming like procedural, object-oriented, functional, and so on. This makes C++ powerful as well as flexible.C++ was designed with an orientation toward system programming and embedded, resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights. C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications
+  including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or space probes).<div class="container">
+<div class="box">
+<div class="icon"></div>
+<div class="content">
+<h3>COURSE DETAILS</h3>
+<h4>DURATION DAYS:30</h4>
+<h4>TOTAL HOURS:140</h4>
+<h4>THEORY HOURS:70</h4>
+<h4>PRACTICAL HOURS:70</h4>
+<h4>TIMING:FN/EV</h4>
+
+<h4>FEE:3500</h4>
+<button class="btn btn1"><a href="Enquiry.html">ENQUIRY</a></button>
+<button class="btn btn2"><a href="register.html">REGISTER</a></button>
+</div>
+</div>
+</div>
+</section>
+</div>
+<footer>
+<div class="foot">
+<div class="left-col">
+<img srcset="" alt="" class="logo">
+<div class="social-media">
+<ul>
+<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li></ul>
+</div>
+<p class="right-text"></p>
+</div>
+<div class="right-col">
+<h1>DETAILS</h1>
+<div class="border"></div>
+<p>Thiagarajar polytechnic college</p>
+<p>junction main road</p>
+<p>salem-636005.</p>
+</div>
+</div>
+</footer>
+</body>
+</html>
